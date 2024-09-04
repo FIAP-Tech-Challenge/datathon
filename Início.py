@@ -1,6 +1,18 @@
 import pandas as pd
 import streamlit as st
 
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"] {
+background-image: url("data/1.jpg");
+background-size: 120%;
+background-position: left;
+background-repeat: no-repeat
+}
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 st.title("DASHBOARD ONG PASSOS MÁGICOS ILUMINANDO VIDAS ✨")
 
 st.divider()
