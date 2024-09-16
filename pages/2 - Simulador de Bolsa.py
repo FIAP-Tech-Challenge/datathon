@@ -10,8 +10,19 @@ modelo = keras.models.load_model('data/multilayer-perceptron.keras')
 
 scaler = joblib.load("data/scaler.joblib")
 
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"] {
+background-image: url("https://raw.githubusercontent.com/FIAP-Tech-Challenge/datathon/c36b8f489d9bf07499bb33fb17052ca123066db9/data/1.jpg");
+background-size: 15%;
+background-position: right;
+background-repeat: no-repeat;
+}
+</style>
+"""
 
-st.title("SIMULADOR DE BOLSA🤖")
+st.markdown(page_bg_img, unsafe_allow_html=True)
+st.title("SIMULADOR DE BOLSA 🤖")
 
 st.markdown(
                 """Digite as notas abaixo para simular os indicadores de performance do aluno, em seguida clique em **:blue[Simular]**. O modelo determinará se o aluno obteve a concessão da bolsa de estudos ou não."""

@@ -6,7 +6,18 @@ import plotly.express as px
 df_2020 = pd.read_csv('data/processado_base_2020.csv', sep=';')
 df_2021 = pd.read_csv('data/processado_base_2021.csv', sep=';')
 df_2022 = pd.read_csv('data/processado_base_2022.csv', sep=';')
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"] {
+background-image: url("https://raw.githubusercontent.com/FIAP-Tech-Challenge/datathon/c36b8f489d9bf07499bb33fb17052ca123066db9/data/1.jpg");
+background-size: 15%;
+background-position: right;
+background-repeat: no-repeat;
+}
+</style>
+"""
 
+st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title("EXPLORAÇÃO DOS DADOS 📊")
 
 aba1, aba2 = st.tabs(['Instituições de ensino', 'Idade dos alunos'])
