@@ -4,10 +4,11 @@ Grupo 17
 José Faria- RM 353111
 Marcelo Sampaio – RM 352734
 Micheli Souza – RM 352969
-Rafael PayHop – RM 352735
+Rafael Inoue – RM 352735
 
-Link para acessar o app Streamlit: 
+Link para acessar o app Streamlit: https://datathon-grupo17.streamlit.app
 Link para acessar o código python: https://github.com/FIAP-Tech-Challenge/datathon
+Link para acessar a apresentação Youtube: https://youtu.be/rlJbs_ne1Ag
 
 _O Datathon é um projeto que contempla a última fase e é o desafio final que englobará os conhecimentos obtidos em todas as disciplinas do curso. Esta é uma atividade que, a princípio, deve ser desenvolvida em grupo. É importante atentar-se ao prazo de entrega, pois trata-se de uma atividade obrigatória, que vale 60% da nota da fase 5 e 30% da nota geral do curso. Esse projeto final substitui o Tech Challenge que seria realizado, assim como nas fases anteriores._
 
@@ -44,4 +45,4 @@ A base de dados contém informações educacionais e socioeconômicas dos estuda
 
 5.Instalar os pacotes: "pip install -r requirements.txt"
 
-6. Executar o comando: "streamlit run main.py"
+6.Executar o comando: "streamlit run Início.py"
